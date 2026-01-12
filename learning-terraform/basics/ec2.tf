@@ -19,6 +19,6 @@ resource "aws_instance" "myec2" {
     key_name = "terraform_key_pair"
 
     tags = {
-        Name = "ec2-kevin"
+        Name = "ec2-kevin-franc"
     }
 }
